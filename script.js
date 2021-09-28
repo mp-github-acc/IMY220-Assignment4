@@ -44,6 +44,7 @@ function onButtonClick(element,event){
 				console.log($('#name').value);
 				$('div.details:eq(0)').empty();
 				$('div.details:eq(0)').append(name);
+				$('div.details:eq(0)').append("<span></span>");
 				$('div.details:eq(0)').append(newContents);
 				$('div.details:eq(0)').append('<button class="btn btn-dark pull-right" name="Edit">Edit</button>');
 			}
@@ -59,6 +60,7 @@ function onButtonClick(element,event){
 				console.log($('#surname').value);
 				$('div.details:eq(1)').empty();
 				$('div.details:eq(1)').append(surname);
+				$('div.details:eq(1)').append("<span></span>");
 				$('div.details:eq(1)').append(newContents);
 				$('div.details:eq(1)').append('<button class="btn btn-dark pull-right" name="Edit">Edit</button>');
 			}
@@ -74,6 +76,7 @@ function onButtonClick(element,event){
 				console.log($('#email').value);
 				$('div.details:eq(2)').empty();
 				$('div.details:eq(2)').append(email);
+				$('div.details:eq(2)').append("<span></span>");
 				$('div.details:eq(2)').append(newContents);
 				$('div.details:eq(2)').append('<button class="btn btn-dark pull-right" name="Edit">Edit</button>');
 			}
@@ -97,6 +100,7 @@ function onButtonClick(element,event){
 				console.log($('#birthdate').value);
 				$('div.details:eq(3)').empty();
 				$('div.details:eq(3)').append(birthdate);
+				$('div.details:eq(3)').append("<span></span>");
 				$('div.details:eq(3)').append(newContents);
 				$('div.details:eq(3)').append('<button class="btn btn-dark pull-right" name="Edit">Edit</button>');
 			}
